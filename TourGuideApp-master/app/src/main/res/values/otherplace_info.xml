@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="otherplace_cousine">
+        <item>Jalan Teuku Umar No.1, Kedaton, Kota Bandar Lampung, Lampung 35132</item>
+        <item>Jl. Sultan Agung, Way Halim Permai, Way Halim, Kota Bandar Lampung, Lampung 35133</item>
+        <item>Gn. Sari, Engal, Kota Bandar Lampung, Lampung</item>
+        <item>Jl. Pemuda No. 1, Tanjung Karang, Sawah Lama, Tanjung Karang Timur, Kota Bandar Lampung, Lampung 35128</item>
+        <item>Jl. Zainal Abidin Pagar Alam, Rajabasa, Kota Bandar Lampung, Lampung 35144</item>
+        <item>Brantiraya, Natar, Brantiraya, Natar, Kabupaten Lampung Selatan, Lampung 35362</item>
+    </string-array>
+
+    <string-array name="otherplace_name">
+        <item>Mall Boemi Kedaton</item>
+        <item>Transmart Lampung</item>
+        <item>Stasiun Kereta Api</item>
+        <item>CandraDeptStore</item>
+        <item>Terminal Rajabasa </item>
+        <item>Bandara Raden Intan II</item>
+    </string-array>
+
+    <string-array name="otherplace_website">
+        <item>https://id.wikipedia.org/wiki/Mal_Boemi_Kedaton</item>
+        <item>https://id.wikipedia.org/wiki/Transmart_Carrefour_Lampung</item>
+        <item>https://id.wikipedia.org/wiki/Stasiun_Tanjungkarang</item>
+        <item>https://id.wikipedia.org/wiki/Chandra_Super_Store_Tanjung_Karang</item>
+        <item>https://id.wikipedia.org/wiki/Terminal_Rajabasa</item>
+        <item>https://id.wikipedia.org/wiki/Bandar_Udara_Radin_Inten_II</item>
+    </string-array>
+
+</resources>

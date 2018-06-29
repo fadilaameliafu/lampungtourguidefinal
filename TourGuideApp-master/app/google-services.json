@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "397891044725",
+    "firebase_url": "https://vlampung-61493.firebaseio.com",
+    "project_id": "vlampung-61493",
+    "storage_bucket": "vlampung-61493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397891044725:android:37e55754f047caad",
+        "android_client_info": {
+          "package_name": "com.example.android.tourguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397891044725-smiobo8ffc0er1s5hu4oe7a0j0s0qh86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.tourguide",
+            "certificate_hash": "e78c8197c28689bb8f04dbcdc99b2308b46c3fcd"
+          }
+        },
+        {
+          "client_id": "397891044725-vd4cv65d16oi4epfqpr23e6spbv3uoh4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "397891044725-vd4cv65d16oi4epfqpr23e6spbv3uoh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvvWLDL-4YQQIwmI3MngC_HNBeuyC-Hk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397891044725-vd4cv65d16oi4epfqpr23e6spbv3uoh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

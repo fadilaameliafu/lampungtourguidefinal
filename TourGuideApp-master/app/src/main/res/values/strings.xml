@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Visit Lampung</string>
+
+    <string name="city_map">Map City</string>
+    <string name="to_see">Signature</string>
+    <string name="restaurants">Restaurant</string>
+    <string name="photos">Transportation</string>
+    <string name="trumpet_call">Other Place</string>
+    <string name="app_info">Post</string>
+
+    <string name="send_message_to">Send message to Us:</string>
+    <string name="enter_message">Enter message</string>
+    <string name="app_made_by">App made by Visit Lampung</string>
+    <string name="minimum_sdk">Minimum SDK version: 15 - ICE CREAM SANDWICH</string>
+    <string name="target_sdk">Target SDK version: 26 - NOUGAT</string>
+    <string name="app_made_with">App made with: Android Studio 2.3.3</string>
+
+    <array name="category">
+        <item> Restaurant </item>
+        <item> Transportation Place </item>
+        <item> Other Place </item>
+    </array>
+
+</resources>

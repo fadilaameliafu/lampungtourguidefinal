@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fadila.android.tourguide.AppInfoActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <EditText
+                android:textColor="@color/app_info_dark"
+                android:textColorHint="@color/app_info_dark"
+                android:shadowColor="@color/app_info_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Name"
+                android:hint="Name"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp">
+
+            <Spinner
+                android:textColor="@color/app_info_dark"
+                android:textColorHint="@color/app_info_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Category"
+                android:entries="@array/category"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:textColor="@color/app_info_dark"
+                android:textColorHint="@color/app_info_dark"
+                android:shadowColor="@color/app_info_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/Address"
+                android:hint="Address"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:textColor="@color/app_info_dark"
+                android:textColorHint="@color/app_info_dark"
+                android:shadowColor="@color/app_info_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/MoreInfo"
+                android:hint="More Info"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:id="@+id/add"
+                android:text="add photo"
+                android:textColor="@color/app_info_background"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:textColor="@color/app_info_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit"
+                android:text="Submit"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

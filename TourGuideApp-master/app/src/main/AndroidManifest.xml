@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fadila.android.tourguide">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Visit Lampung"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCpX_QADIi1XoLujkA4CqlmHh8VimfyHuQ" /> <!--API KEY GOOGLE MAPS ANDROID DEV-->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!--VERSI GOOGLE PLAY SERVICE-->
+        <activity android:name=".MapsActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToSeeActivity"
+            android:label="@string/to_see"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ToSeeTheme" />
+        <activity
+            android:name=".PhotosActivity"
+            android:label="@string/photos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PhotosTheme" />
+        <activity
+            android:name=".RestaurantsActivity"
+            android:label="@string/restaurants"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/RestaurantsTheme" />
+        <activity
+            android:name=".SinglePhotoActivity"
+            android:parentActivityName=".PhotosActivity"
+            android:theme="@style/PhotosTheme" />
+        <activity android:name=".AppInfoActivity"
+            android:label="@string/app_info"
+            android:parentActivityName=".AppInfoActivity"
+            android:theme="@style/AppInfoTheme"/>
+    </application>
+
+</manifest>

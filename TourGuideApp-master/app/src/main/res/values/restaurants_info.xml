@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="restaurants_cousine">
+        <item>Jl. Griya Utama No. 57, Way Halim Permai, Way Halim, Kota Bandar Lampung, Lampung 35135 (0721 704455)</item>
+        <item>Jl. Diponegoro No.01, Kupang Kota, Teluk Betung Utara, Kota Bandar Lampung, Lampung 35225 (0721 474849)</item>
+        <item>Jagabaya III, Way Halim, Bandar Lampung City, Lampung (0721 700666)</item>
+        <item>Jl. Teuku Umar No.9, Kedaton, Kota Bandar Lampung, Lampung 35132 (0721 789444)</item>
+        <item>Jl. Pangeran Antasari No.110, Tj. Baru, Kedamaian, Kota Bandar Lampung, Lampung 35122 (0721 5604788)</item>
+        <item>Jl. Way Sekampung No. 1A, Pahoman, Engal, Kota Bandar Lampung, Lampung 35212 (0721 263827)</item>
+        <item>JL. Raden Ajeng Kartini, No. 202, Gedong Pakuan Talang, Tanjung Karang, Engal, Tj. Karang, Engal, Kota Bandar Lampung, Lampung 35127 (0721 251520)</item>
+        <item>Jl. Wolter Monginsidi, Tanjung Karang Pusat, Pengajaran, Teluk Betung Utara, Pengajaran, Tlk. Betung Utara, Kota Bandar Lampung, Lampung 35214 (0721 5600592)</item>
+        <item>Jl. Sultan Agung No.33, Kedaton, Kota Bandar Lampung, Lampung 35141 (0896 1287 8132)</item>
+        <item>Jl. Diponegoro No.28, Sumur Batu, Teluk Betung Utara, Kota Bandar Lampung, Lampung 35212 (0823-1163-7604)</item>
+        <item>Jl. Raden Intan No.112, Enggal, Tj. Karang Pusat, Lampung, 35213 (0811 3249 071)</item>
+        <item>Jl. Bukit Randu No. 1-2A, Kebon Jeruk, Tanjung Karang Timur, Kota Bandar Lampung, Lampung 35121 (0721 241333)</item>
+        <item>Jl. Zainal Abidin Pagar Alam No.27, Labuhan Ratu, Kedaton, Kota Bandar Lampung, Lampung 35132 </item>
+    </string-array>
+
+    <string-array name="restaurants_name">
+        <item>Kampoeng Bamboe Restoran % Homestay</item>
+        <item>Begadang Resto</item>
+        <item>Rumah Kayu</item>
+        <item>Restoran Bumbu Desa</item>
+        <item>Aroma Seafood Market </item>
+        <item>Nasi Bakar New LG</item>
+        <item>Nasi Uduk Toha</item>
+        <item>Alas Cobek</item>
+        <item>Ikan Bakar Gembul</item>
+        <item>Bebek Belur</item>
+        <item>Pizza Hut</item>
+        <item>Bukit Randu</item>
+        <item>Bakso Sonny Haji VIII</item>
+    </string-array>
+
+    <string-array name="restaurants_website">
+        <item>http://www.kampoengbamboe.co.id/</item>
+        <item>https://www.facebook.com/RumahMakanBegadangResto/</item>
+        <item>http://rumah-kayu.co.id/</item>
+        <item>https://www.facebook.com/Bumbu-Desa-Lampung-651553174929102/?rf=596359993759525</item>
+        <item>https://www.facebook.com/aromaseafoodlampung/</item>
+        <item>https://www.tripadvisor.com/ShowUserReviews-g297722-d10331227-r392366760-RM_New_LG-Bandar_Lampung_Lampung_Sumatra.html</item>
+        <item>https://www.inspirasikukeni.blogspot.co.id/2017/05/kuliner-lampung-nasi-uduk-toha-sate-cak.html</item>
+        <item>https://www.tripadvisor.co.id/Restaurant_Review-g297722-d11638868-Reviews-RM_Alas_Cobek-Bandar_Lampung_Lampung_Sumatra.html</item>
+        <item>https://www.facebook.com/pages/Rumah-Seafood-Ikan-Bakar-Gembul/866483886829802</item>
+        <item>https://www.facebook.com/pages/biz/diner/Bebek-Belur-Pahoman-Lampung/159857747924182/</item>
+        <item>https://www.pizzahut.co.id/lokasi/raden-intan#home</item>
+        <item>http://bukitrandu.com/lampung/</item>
+        <item>https://id.foursquare.com/v/bakso-son-haji-sony-viii/4bf12c12b315c9b60fac93ff</item>
+    </string-array>
+
+</resources>
